@@ -1,0 +1,144 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    color:#efefef;
+    margin-bottom: 200px;
+    padding-top: 3%;
+}
+.about .contain{
+    padding-top:200px;
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+}
+.about .borderWhite{
+    height: 400px;
+    max-height: 400px;
+    width: 1px;
+    max-width: 1px;
+    background-color: #efefef;
+    margin: 0 40px ;
+}
+.about .title{
+    width: 100%;    
+}
+.about h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 6.8rem;
+    line-height: 110px;
+
+}
+.about h1 .subtitle{
+    font-family: 'Bahnschrift', sans-serif;
+    display: block;
+    font-size: 3.4rem;
+    line-height: 60px;
+    font-weight: 700;
+}
+.about h2{
+    font-size: 3rem;
+}
+.about .degrade{
+    padding-top: 5px ;
+    background: linear-gradient(90deg, #E6007D, #5C2582);;
+}
+.about .text{
+    width: 100%;
+}
+.about p{
+    font-family: 'Oswald', sans-serif;
+}
+.about p.height{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2.3rem;
+    margin-bottom: 0; 
+}
+.about  p.address{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.about p {
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+}
+.borderPink{
+    max-height: 20px;
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(90deg, #E6007D, #5C2582);
+}
+.about .information{
+    width: 60%;
+}
+.about .logo{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+    height: 660px;
+}
+.about .logo::after{
+    content: "";
+    display: block;
+    max-height: 20px;
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(90deg, #E6007D, #5C2582);
+}
+@media screen and (max-width:1150px){
+    .about{
+        flex-direction: column;
+        padding-top: 0;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .about .logo{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 10%;
+        z-index: +1;
+        padding-right: 100px;
+    }
+    .about .logo img{
+        height: 50%;
+        width:60% ;
+        min-width: 250px;
+    }
+    .about .logo::after{
+        content: "";
+        display: none;
+    }
+    .about .information{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .information .borderWhite{
+        min-width: 100%;
+        height: 1px;
+    }
+    .about .information .contain{
+        padding: 50px 0;
+        min-width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .contain .text {
+        padding:0 ;
+    }
+    .about .contain .text h1{
+        font-size: 5rem;
+        line-height: 100%;
+    }
+}
+
+

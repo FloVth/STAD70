@@ -1,0 +1,76 @@
+.borderRadius{
+    border-radius: 50%;
+    background-color: #262626;
+    height: 10vh;
+    width: 110vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: -5vw;
+    
+}
+.containerBorderRadius{
+  position: relative;
+  z-index: +1;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100px;
+  transform: translateY(-2.5vh);
+  overflow-y: hidden;
+}
+@keyframes scroll_2 {
+    0%   { transform: translateY(0); opacity: 1; }
+    25%  { opacity: 1; }
+    75%  { transform: translateY(.75em); opacity: 0; }
+    100% { transform: translateY(0); opacity: 0; }
+  }
+  .scroll-icon__dot {
+    display: block;
+    position: absolute;
+    background:#E6007D;
+    left: 72%;
+    height: .7em;
+    width: 2px;
+    top: .4em;
+    margin-left: -.25em;
+    border-radius: 50%;
+    transform-origin: top center;
+    backface-visibility: hidden;
+    animation: scroll_2 2s ease-out infinite;
+  }
+  
+  .scroll-icon {
+    display: block;
+    position: relative;
+    height: 2em;
+    width: 1.2em;
+    border: .18em solid #ffffff;
+    border-radius: 1em;
+    margin-top: 0.4em;
+  }
+  
+main{
+    padding-top:100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1, h2, h3, h4{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:1150px) {
+    main{
+        padding: 0 5%;
+    }
+    .borderRadius{
+      height: 5vh;
+    }
+}
+@media screen and (max-width:1045px) {
+  .borderRadius{
+   height:15vh
+  }
+}

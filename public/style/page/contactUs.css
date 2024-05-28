@@ -1,0 +1,72 @@
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.contactUs .contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactUs .text{
+    color:#EFEFEE;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.contactUs .text .stad{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contactUs .text .title{
+    text-transform: uppercase;
+}
+.contactUs .button{
+    fill:#EFEFEE;
+    background-color: #5C2582;
+    background-image: linear-gradient(-154deg, #E6007D, rgba(255,255,255,0) );
+    width: 50%;
+    transition: background-color 1s;
+}
+.contactUs .button:hover{
+    background-color: #E6007D;
+}
+.contactUs .button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px 0;
+}
+.contactUs .button svg{
+    width: 36px;
+    height: 28px;
+}
+.contactUs .button p{
+    color: #EFEFEE;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+}
+@media screen and (max-width:675px) {
+    .contactUs .text{
+        font-size: 2rem;
+    }
+    .contactUs{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:540px) {
+    .contactUs .text{
+        font-size: 1.5rem;
+    }
+}

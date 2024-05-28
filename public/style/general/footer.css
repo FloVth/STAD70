@@ -1,0 +1,40 @@
+footer{
+    background-image: url('../../media/footerActivCom.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem;
+    color: #EFEFEF;
+}
+footer p{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+footer .ActivCom{
+    font-size: 1rem;
+    font-weight: bold;
+}
+footer .Adress-ActivCom{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+@media screen and (max-width:1050px) {
+    footer .ActivCom{
+        font-size: 0.8rem;
+    }
+    footer .Adress-ActivCom{
+        font-size: 0.6rem;
+    }
+    footer .ActivCom-logo a img{
+        width: 100px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:750px) {
+    footer .ActivCom-logo{
+        display: none;
+    }
+    
+}

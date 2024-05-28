@@ -1,0 +1,31 @@
+{% block body %}
+    <div class="containerBorderRadius">
+        <div class="borderRadius">
+                <span class="scroll-icon">
+                    <span class="scroll-icon__dot"></span>
+                </span>
+        </div>
+    </div>
+    <main>
+
+    {% for element in obj.page[id].content %}
+        {% if element.type == "about"%}
+            {% include 'container/components/about.html.twig' %}
+        {% elseif element.type == "twoContent" %}
+            {% include 'container/components/twoContents.html.twig'%}
+        {% elseif element.type == "menu"%}
+            {% include 'container/components/menu.html.twig' %}
+        {% elseif element.type == "slider"%}
+            {% include 'container/components/slider.html.twig' %}
+        {% elseif element.type == "twoContentsMap"%}
+            {% include 'container/components/twoContentsMap.html.twig' %}
+        {% elseif element.type == "form" %}
+            {% include 'container/components/contact.html.twig' %}
+        {% elseif element.type == "twoContainer"  %}
+            {% include 'container/components/twoContainer.html.twig' %}
+        {% elseif element.type == "contactUs" %}
+            {% include 'container/components/contactUs.html.twig' %}
+        {% endif %}
+    {% endfor %}
+    </main>
+{% endblock body %}

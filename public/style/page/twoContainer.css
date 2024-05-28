@@ -1,0 +1,103 @@
+.twoContainer{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow:  rgba(20, 20, 20, 0.7) 0px 8px 12px;
+}
+.twoContainer .left{
+    width: 50%;
+    height: 100%;
+}
+.twoContainer .right{
+    width: 50%;
+    height: 100%;
+}
+.twoContainer .left .contain{
+    width: 100%;
+    height: 100%;
+    padding: 5% 2% 5% 7%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.twoContainer .left .contain .text{
+    background-color: #262626;
+    min-height: 330px;
+    min-width: 100%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.twoContainer .contain p{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif ;
+    color:#EFEFEE;
+}
+.twoContainer .contain .title{
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif ;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.twoContainer .contain .subtitle{
+    font-size: 1.813rem;
+    font-family: 'Oswald', sans-serif ;
+    padding-bottom: 15px;
+}
+.twoContainer .right .contain{
+    width: 100%;
+    height: 100%;
+    padding: 5% 7% 5% 2%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.twoContainer .right .contain .text{
+    background-color: #262626;
+    min-height: 330px;
+    min-width: 100%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.twoContainer .text{
+    box-shadow:  rgba(20, 20, 20, 0.7) 0px 8px 12px;
+}
+.twoContainer .contain .text p:not(.title){
+    text-align: justify;
+}
+@media screen and (max-width:1300px) {
+    .twoContainer .contain .text p.title{
+        font-size:2rem
+    }
+    .twoContainer{
+        width: 115%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .twoContainer{
+        flex-direction: column;
+        height: auto;
+    }
+    .twoContainer .left{
+        width: 90%;
+    }
+    .twoContainer .right{
+        width: 90%;
+    }
+    .twoContainer .left .contain{
+        padding: 5% 0 0 0 ;
+    }
+    .twoContainer .right .contain{
+        padding: 5% 0 5% 0;
+    }
+}

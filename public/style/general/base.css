@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src:url('./../../media/font/Bahnschrift.ttf') format('truetype'),
+        url('./../../media/font/Bahnschrift.eot'),
+        url('./../../media/font/Bahnschrift.eot?#iefix') format('embedded-opentype'),
+        url('./../../media/font/Bahnschrift.woff2') format('woff2'),
+        url('./../../media/font/Bahnschrift.woff') format('woff');
+    font-stretch: 1% 500%;
+}
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#background-image{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+#backgroundText{
+    margin: 0 240px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+#text{
+    background-color: #141414;
+    max-width: 500px;
+    min-width: 500px;
+    min-height: calc(100vh - 2.5vh);
+    position: relative;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    box-shadow: rgba(20, 20, 20, 0.7) 0px 8px 24px;
+}
+#text p{
+    color: #EFEFEF;
+    text-transform: uppercase;
+    font-family: 'Bahnschrift';
+    text-shadow: 2px 2px 6px black;
+}
+#text .papier{
+    transform: translateX(50);
+    position: absolute;
+    left: -180px;
+    top: 110px;
+    transform: rotate(270deg);
+    width: 100%;
+    font-size: 43px;
+    line-height: 48px;
+}
+
+#text .peinture{
+    font-size: 55px;
+    line-height: 54px;
+}
+#text .placo{
+    font-size: 83px;
+    line-height: 82px;
+}
+#text .texture{
+    font-size: 63px;
+    line-height: 62px;
+}
+#text .deco{
+    line-height: 104px;
+    font-size:103px;
+}
+
+.ContainText{
+    transform: translateX(45px);
+    position: relative;
+    max-height: 320px;
+    max-width: 300px;
+    height: 280px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.horizontalText{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.line{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height:30px;
+    height: 30px;
+    top: 88%;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+}
+.lineWhite{
+    background-color: #efefef9f;
+    height: 1px;
+    width: 100vw;
+    background-attachment: fixed;
+}
+body{
+    background-color: #262626;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+#backgroundOther{
+    min-height: calc(100vh - 165px);
+    max-height: calc(100vh -  165px);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 150px;
+}
+#backgroundOther .roll{
+    height: 115px;
+    width: 60px;
+    margin:0 50px ;
+}
+#backgroundOther .deco{
+    height: 110px;
+    width: 105px;
+    margin:0 50px ;
+}
+#backgroundOther .content{
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-width:60%;
+    max-width: 60%;
+    min-height: 180px;
+    max-height: 180px;
+    z-index: 1;
+}
+#backgroundOther p{
+    color: #EFEFEF;
+    text-transform: uppercase;
+    font-size:3.125rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+@media screen and (max-width:1045px){
+    #backgroundText #text{
+        background-color: transparent;
+        box-shadow: none;
+    }
+    #backgroundText{
+        box-shadow: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    #background-image{
+        background-attachment:scroll;
+        opacity: 0.7;
+    }
+    #backgroundOther{
+        min-height: calc(100vh - 180px);
+        max-height: calc(100vh - 260px);
+    }
+    #text{
+        min-height: calc(100vh - 2.5vh);
+    }
+}
+@media screen and (max-width:1000px) {
+    #backgroundOther .content p{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:800px){
+    #backgroundOther .content {
+        min-width: 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #backgroundOther .content svg{
+        margin: 0 10px;
+    }
+}

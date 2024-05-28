@@ -1,0 +1,66 @@
+html *{
+    box-sizing: border-box;
+}
+input[type="text"], #message{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+input:focus, #message:focus{
+    outline: 0;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    line-height: 1.5;
+}
+.menu{
+    overflow-y: hidden;
+    max-height: 100vh;
+}
+img{
+    display: block;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    height: 100%;
+}
+input[type="text"]{
+    all: unset;
+}
+textarea{
+    padding: 0;
+    margin: 0;
+    resize: none;
+}

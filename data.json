@@ -1,0 +1,301 @@
+{
+    "general":{
+        "header":{
+            "localisation":" 5 Impasse du Crotos - 70000 Vaivre et Montoille",
+            "phone":"06 80 30 60 45",
+            "facebook":"https://facebook.com",
+            "x":"https://x.com",
+            "linkedin":"https://linkedin.com",
+            "instagram":"https://instagram.com"
+        },
+        "footer":{
+            "activCom":[
+                "conception et hébergement: activ'communication",
+                "148 Avenue Pasteur - 70000 Echenoz-la-Méline - tél.0384686746 - mail:contact@activcom.net - © 2011-2021 - Activ'Communication"
+            ]
+        }
+    },
+    "page":[
+        {
+            "title":"Accueil",
+            "url":"/",
+            "content":[
+                {
+                    "type":"landing",
+                    "img":{
+                        "url":"./media/LandingAccueil.jpg",
+                        "width":1920,
+                        "height":426,
+                        "alt":"Photo de fond page d'accueil"
+                    }  
+                },
+                {
+                    "type":"about",
+                    "content":{
+                        "title":"stad",
+                        "secondTitle":"rénovation ",
+                        "secondTitleGradient":"&",
+                        "secondTitleGradient2":"design",
+                        "tertiaryTitle":"le partenaire de vos travaux à domicile depuis 1997",
+                        "subtitle":"à Vesoul et en Haute-Saône",
+                        "text":"S.T.A.D. (Services Travaux à Domicile), opère depuis plus de vingt ans dans tout le département de la Haute-Saône pour réaliser vos travaux de décoration, peinture intérieure, papiers-peints, revêtement de murs et sols.",
+                        "secondText":"Que vous soyez un particulier désireux de transformer son habitation  ou une collectivité souhaitant rénover locaux et bâtiments communautaires, contactez-nous sans plus attendre pour obtenir les conseils avisés d’un professionnel !"
+                    }
+                },
+                {
+                    "type":"twoContent",
+                    "content":{
+                        "position":0,
+                        "text":{
+                            "title":"notre équipe",
+                            "text":"Notre équipe de six ouvriers expérimentés est à votre service pour donner vie à vos projets et rénover votre intérieur. Nos peintres et menuisiers qualifiés se passionnent pour leur métier et ont le goût du travail soigné. Ce sont les professionnels dont vous avez besoin pour concrétiser vos envies. C’est également ce qui différencie nos ouvrages terminés sur le plan de la qualité."
+                        },
+                        "img":{
+                            "url":"./media/twoContainAccueil1.jpg",
+                            "width":960,
+                            "height":450,
+                            "alt":"photo personne discutant autour d'une table"
+                        }
+                    }   
+                },
+                {
+                    "type":"twoContent",
+                    "content":{
+                        "position":1,
+                        "text":{
+                            "title":"des prestations variées",
+                            "text":"Grâce aux différents corps de métiers qui composent l’équipe de S.T.A.D., nous sommes capables de vous proposer diverses prestations. Toutes réalisées avec le même soin. Nous (re)peignons vos murs et plafonds et apposons papier peint ou enduit sur vos surfaces. Nous procédons également au revêtement de vos sols à l’aide de parquet, dalles PVC ou linoléum. Enfin, nous réalisons vos travaux de menuiserie classiques ou sur mesure et procédons à la pose de votre cuisine. Le tout dans le respect des règles de sécurité et en utilisant les meilleures techniques de la profession."
+                        },
+                        "img":{
+                            "url":"./media/planDeTravail.jpg",
+                            "width":960,
+                            "height":450,
+                            "alt":"photo plan de travail"
+                        }
+                    }   
+                },
+                {
+                    "type":"menu"
+                },
+                {
+                    "type":"slider",
+                    "title":"quelque-unes de nos réalisations :",
+                    "content":[
+                        {
+                            "url":"./media/planDeTravail2.jpg",
+                            "width":640,
+                            "height":426,
+                            "alt":"Photo slider"
+                        },
+                        {
+                            "url":"./media/fondDeco.jpg",
+                            "width":640,
+                            "height":426,
+                            "alt":"Photo slider"
+                        },
+                        {
+                            "url":"./media/stairs.jpg",
+                            "width":640,
+                            "height":426,
+                            "alt":"Photo slider"
+                        },
+                        {
+                            "url":"./media/LandingAccueil.jpg",
+                            "width":640,
+                            "height":426,
+                            "alt":"Photo slider"
+                        },
+                        {
+                            "url":"./media/LandingPeinture.jpg",
+                            "width":640,
+                            "height":426,
+                            "alt":"Photo slider"
+                        }
+                    ]
+                },
+                {
+                    "type":"twoContentsMap",
+                    "title":"contactez-nous",
+                    "content":{
+                        "position":0,
+                        "text":{
+                            "title":"STAD - Services travaux à domicile",
+                            "text":"5, Impasse du Crotos",
+                            "text2":"70000 - vaivre et montoille",
+                            "phone":"06 80 30 60 45"
+                        },
+                        "map":{
+                            "lat":"46351",
+                            "lon": "5461"
+                        }
+                    }
+                },
+                {
+                    "type":"form",
+                    "content":{
+                        "leftContent":{
+                            "title":"informations :",
+                            "content":[
+                                "firstName",
+                                "name",
+                                "company",
+                                "phone",
+                                "email"
+                            ]
+                        },
+                        "rightContent":{
+                            "titleSubject":"sujet du message :",
+                            "contentSubject":"subject",
+                            "titleMessage":"message :",
+                            "contentMessage":"message"
+                        },
+                        "under":{
+                            "check":"En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de ma demande et de la relation qui en déroulerait.",
+                            "send":"envoyer le message"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "title":"Peinture intérieure",
+            "url":"/peinture",
+            "content":[
+                {
+                    "type":"landing",
+                    "img":{
+                        "url":"./media/LandingPeinture.jpg",
+                        "width":1920,
+                        "height":426,
+                        "alt":"Photo de fond page d'accueil"
+                    }  
+                },
+                {
+                    "type":"twoContent",
+                    "content":{
+                        "position":0,
+                        "text":{
+                            "title":"peintre à vesoul",
+                            "subtitle":"un artisan pour vos travaux de peinture",
+                            "text":"Notre équipe de six ouvriers expérimentés est à votre service pour donner vie à vos projets et rénover votre intérieur. Nos peintres et menuisiers qualifiés se passionnent pour leur métier et ont le goût du travail soigné. Ce sont les professionnels dont vous avez besoin pour concrétiser vos envies. C’est également ce qui différencie nos ouvrages terminés sur le plan de la qualité."
+                        },
+                        "img":{
+                            "url":"./media/LandingAccueil.jpg",
+                            "width":960,
+                            "height":450,
+                            "alt":"photo personne discutant autour d'une table"
+                        }
+                    }   
+                },
+                {
+                    "type":"twoContainer",
+                    "content":[
+                        "./media/fondTwoContainer.jpg",
+                        {
+                            "title":"Peinture intérieure",
+                            "subtitle":"un artisan pour vos travaux de peinture",
+                            "text":"Au fil du temps, vos envies en décoration et vos besoins peuvent évoluer. Si vous avez envie de changer de peinture ou voulez tout simplement partir sur de bonnes bases dans un intérieur qui vous plaît, STAD vous accompagne. Nous peignons vos surfaces ou les embellissons à l’aide de papier peint classique ou texturé pour un effet plus original. Votre peintre à Vesoul procède également à la pose de lambris boisé ou de toile de verre."
+                        },
+                        {
+                            "title":"des fournisseurs fiable",
+                            "subtitle":"pour un travail de qualité !",
+                            "text":"Parce que le travail bien fait est au cœur de nos valeurs, nous avons établi des partenariats avec des fournisseurs de confiance. Nous travaillons avec des artisans locaux tels que Vesoul Peinture et Nature et Parquets, pour vous proposer le meilleur choix, au meilleur prix. Cela nous permet d’entreprendre, chez vous, des travaux dont vous tirerez pleine satisfaction."
+                        }
+
+                    ]
+                },
+                {
+                    "type":"twoContent",
+                    "content":{
+                        "position":1,
+                        "text":{
+                            "title":"votre printre à vesoul",
+                            "subtitle":"vous propose une large palette de coloris et finitions",
+                            "text":"Pour procéder à l’habillage de vos murs et plafonds, de nombreuses options s’offrent à vous. Selon vos souhaits, l’équipe de STAD peut appliquer des tapisseries et toiles à peindre, ou des enduits décoratifs pour apporter une touche de modernité à votre intérieur. Vous désirez opter pour une finition originale qui conférera un style novateur à vos murs ? Optez alors pour les dalles murales à clipser."
+                        },
+                        "img":{
+                            "url":"./media/twoContainPeinture2.jpg",
+                            "width":960,
+                            "height":450,
+                            "alt":"photo plan de travail"
+                        }
+                    }   
+                },
+                {
+                    "type":"contactUs"
+                }
+            ]
+        },  
+        {
+            "title":"Décoration",
+            "url":"/decoration",
+            "content":[
+                {
+                    "type":"landing",
+                    "img":{
+                        "url":"./media/LandingDeco.jpg",
+                        "width":1920,
+                        "height":426,
+                        "alt":"Photo de fond page d'accueil"
+                    }  
+                },
+                {
+                    "type":"twoContent",
+                    "content":{
+                        "position":0,
+                        "text":{
+                            "title":"lorem ipsum dolor sit amet",
+                            "subtitle":"lorem ipsum ejhvezbnzpjfc,sdc",
+                            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt vitae. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Accumsan tortor posuere ac ut consequat semper viverra nam libero. Pellentesque elit eget gravida cum sociis natoque penatibus et."
+                        },
+                        "img":{
+                            "url":"./media/twoContainDeco1.jpg",
+                            "width":960,
+                            "height":450,
+                            "alt":"photo personne discutant autour d'une table"
+                        }
+                    }   
+                },
+                {
+                    "type":"twoContainer",
+                    "content":[
+                        "./media/fondTwoContainerDeco.jpg",
+                        {
+                            "title":"ut enim ad minim veniam",
+                            "subtitle":"quis nostrud exercitation ullamco",
+                            "text":"Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Sodales ut eu sem integer vitae justo eget magna fermentum. Enim tortor at auctor urna. Felis bibendum ut tristique et egestas quis ipsum. Elementum curabitur vitae nunc sed velit dignissim sodales ut. Pellentesque elit eget gravida cum sociis. Ut tellus elementum sagittis vitae. Placerat duis ultricies lacus sed. Dui vivamus arcu felis bibendum ut tristique et. Ipsum consequat nisl vel pretium lectus."
+                        },
+                        {
+                            "title":"sed do eiusmod empor incididum",
+                            "subtitle":"labore et dolore magna aliqua",
+                            "text":"Pretium lectus quam id leo in vitae turpis massa sed. Augue ut lectus arcu bibendum at varius. Tincidunt vitae semper quis lectus nulla. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Faucibus in ornare quam viverra. Neque laoreet suspendisse interdum consectetur libero id faucibus. Ridiculus mus mauris vitae ultricies leo. Amet risus nullam eget felis eget. Cursus turpis massa tincidunt dui. Vitae elementum curabitur vitae nunc sed velit dignissim."
+                        }
+
+                    ]
+                },
+                {
+                    "type":"twoContent",
+                    "content":{
+                        "position":1,
+                        "text":{
+                            "title":"ullamco laboris nisi ut aliquip ex ea",
+                            "subtitle":"commodo consequat",
+                            "text":"Non odio euismod lacinia at quis risus sed vulputate. Porttitor lacus luctus accumsan tortor posuere. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Diam vel quam elementum pulvinar etiam non quam lacus. Curabitur gravida arcu ac tortor dignissim convallis. Tristique senectus et netus et malesuada. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Vel eros donec ac odio tempor orci dapibus. Massa placerat duis ultricies lacus sed turpis tincidunt id. Morbi tristique senectus et netus et malesuada. Eu feugiat pretium nibh ipsum consequat."
+                        },
+                        "img":{
+                            "url":"./media/twoContainDeco2.jpg",
+                            "width":960,
+                            "height":450,
+                            "alt":"photo plan de travail"
+                        }
+                    }   
+                },
+                {
+                    "type":"contactUs"
+                }
+            ]
+        },
+        {"title":"Contact","url":"/#contact"}
+    ]
+    
+}

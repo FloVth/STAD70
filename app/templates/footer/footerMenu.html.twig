@@ -1,0 +1,9 @@
+
+{% block footerMenu %}
+    <div class="footerMenu">
+        {% for page in obj.page %}
+            <a href="{{page.url}}"><p>{{page.title}}</p></a>
+        {% endfor %}
+            <a href="/mentions-legales"><p>mentions légales</p></a>
+    </div> 
+{% endblock footerMenu %}

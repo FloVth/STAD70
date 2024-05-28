@@ -1,0 +1,14 @@
+{% if element.content.position % 2 == 1 %}
+    <div class="twoContents reverse">
+{% else %}
+    <div class="twoContents">
+{% endif %}
+        <div class="img">
+            <img src="{{element.content.img.url}}" alt="{{element.content.img.alt}}" height="{{element.content.img.height}}" width="{{element.content.img.width}}">
+        </div>
+        <div class="text">
+            <p class="title">{{element.content.text.title}}</p>
+            <p class="subtitle">{{element.content.text.subtitle}}</p>
+            <p>{{element.content.text.text}}</p>
+        </div>
+    </div>

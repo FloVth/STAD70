@@ -1,0 +1,502 @@
+:root{
+    --colorText : #191918;
+}
+#contact{
+    width: 100%;
+}
+.formulaire .text{
+    border-radius: 8px;
+    overflow: hidden;
+}
+.formulaire form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.formulaire{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.formulaire header{
+    color:#EFEFEF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.formulaire .contain form p{
+    color:#EFEFEF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.formulaire .contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 60%;
+}
+.formulaire .contain .labels{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.formulaire .contain .labels .rightContent, .leftContent{
+    min-width: 50%;
+}
+.formulaire .contain .labels .rightContent{
+    padding-right: 10px;
+}
+.formulaire .contain .labels .leftContent{
+    padding-left: 10px;
+}
+
+.formulaire .contain .labels .text {
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #EFEFEF;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.formulaire .contain .labels .text.has-gradient::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-154deg, #E6007D, #5C2582);
+    z-index: -1;
+    border-radius: 10px;
+}
+.formulaire .contain .labels .text.has-gradient.backgroundRed{
+    border: 1px solid red
+}
+.formulaire .contain .labels .sujet.gradient.backgroundRed{
+    border: 1px solid red
+}
+.formulaire .contain .labels .msg.gradient.backgroundRed{
+    border: 1px solid red
+}
+.formulaire .contain .labels .text.has-gradient input{
+    width: 100%;
+    background-color: var(--colorText) ;
+    background-clip: padding-box;
+    border: 2px solid var(--colorText);
+    border-left: 0;
+    padding-left: 10px;
+}
+.formulaire .contain .labels .text.has-gradient input:focus{
+    border: 2px solid transparent;
+    border-radius: 0 8px 8px 0;
+    border-left: 0;
+}
+.formulaire .contain .labels .text.has-gradient input:focus+.icon{
+    border: 2px solid transparent;
+    border-right: 0;
+}
+.formulaire .contain .labels .text .icon{
+    min-width: 45px;
+    height: 45px;
+    border-radius: 8px 0 0 8px;
+    background-color: var(--colorText);
+    background-clip: padding-box;
+    border-right: 1px solid #E6007D;
+    border-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+}
+.formulaire .contain .labels .text .icon::before{
+    content: "";
+    min-width: 1px;
+    max-width: 1px;
+    height: 32px;
+    background-color: #E6007D;
+}
+.formulaire .contain .labels .text input::placeholder{
+    color : rgba(255, 255, 255, 0.425);
+    font-style: italic;
+    font-weight: 300;
+}
+.formulaire .text .icon svg{
+    fill:#F4F4F4;
+    width: 25px;
+    height: 15px;
+}
+.formulaire .text .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #E6007D;
+}
+.formulaire .text .icon.societe svg{
+    height: 20px;
+    width: 20px;
+}
+.formulaire .text .icon.phone svg{
+    height: 20px;
+    width: 13px;
+}
+.formulaire .text .icon.email svg{
+    height: 20px;
+    width: 20px;
+}
+.formulaire .contain .labels .rightContent p, .leftContent p{
+    font-size: 18px;
+}
+.formulaire .borderPink{
+    min-width: 1px;
+    max-width: 1px;
+    background: linear-gradient(-154deg, #E6007D, #5C2582);
+    max-height: 30px;
+    min-height: 30px;
+}
+.formulaire .border{
+    min-width: 1px;
+    max-width: 1px;
+    background: var(--colorText);
+    max-height: 45px;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulaire .contain .leftContent .sujet.gradient::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-154deg, #E6007D, #5C2582);
+    border-radius: 10px;
+    z-index: -1;
+}
+.formulaire .contain .leftContent .sujet {
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    color: #EFEFEF;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+.formulaire .contain .leftContent .sujet.gradient input {
+    width: 100%;
+    background-color: var(--colorText) ;
+    background-clip: padding-box;
+    border: 2px solid var(--colorText);
+    padding-left: 10px;
+    height: 40px;
+}
+.formulaire .contain .leftContent .sujet.gradient input:focus {
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.formulaire .contain .labels .sujet input::placeholder{
+    color : rgba(255, 255, 255, 0.425);
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+.formulaire .contain .leftContent .msg.gradient::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-154deg, #E6007D, #5C2582);
+    border-radius: 10px;
+    z-index: -1;
+}
+.formulaire .contain .leftContent .msg{
+    position: relative;
+    margin-bottom: 15px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+.formulaire .contain .leftContent .msg.gradient #message {
+    width: 100%;
+    background-color: var(--colorText) ;
+    background-clip: padding-box;
+    border: 2px solid var(--colorText);
+    padding: 10px;
+    height: 170px;
+    color: #EFEFEF;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.formulaire .contain .leftContent .msg.gradient #message:focus {
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.formulaire .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.formulaire .checkData{
+    width: 60%;
+}
+.formulaire #check{
+    min-width: 15px;
+    min-height: 15px;
+}
+.formulaire #check:focus{
+    background-color: #EFEFEF;
+}
+.formulaire .send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px 20px;
+    background-color: #5C2582;
+    background-image: linear-gradient(-154deg, #E6007D, rgba(255,255,255,0) );
+    transition: background-color 2s;
+    width: 40%;
+}
+.formulaire .send:hover{
+    background-color:#E6007D;
+    cursor: pointer;
+}
+.formulaire .send svg{
+    fill:#EFEFEF;
+    min-width:30px;
+    max-width: 30px;
+    min-height:16px;
+    max-height: 16px;
+    margin-right: 15px;
+}
+.formulaire .contain .buttons .send p{
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 0;
+}
+.formulaire .checkData label{
+    color: #efefefbd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9125rem;
+    font-style: italic;
+}
+input[type="checkbox"]{
+    appearance:none ;
+    -webkit-appearance: none;
+    background-color: #EFEFEE;
+    margin: 0 5px 0 0;
+    font: inherit;
+    color: #262626;
+    width: 1.15em;
+    height: 1.15em;
+    border: 50% solid #262626;
+    border-radius:5px;
+    display: grid;
+    float: left;
+    place-content: center;
+}
+input[type="checkbox"]::before {
+    content: "";
+    width: 1.1em;
+    height: 1.1em;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #E6007D;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+input[type="checkbox"]:checked::before {
+transform: scale(1);
+}
+.success svg .st1{
+    fill:green;
+}
+.success svg .st0{
+    fill:#EFEEEE;
+}
+.success svg{
+    width: 100px;
+}
+.notSend svg .st1{
+    fill:red;
+}
+.notSend svg .st0{
+    fill:#EFEEEE
+}
+.notSend svg{
+    width: 100px;
+}
+
+.backgroundGradient p{
+    color:#EFEFEE;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+.backgroundGradient .icon{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success .backgroundGradient{
+    background: #3A3A3A;
+    box-shadow:rgba(20, 20, 20, 0.7) 0px 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border: 3px solid green;
+    border-radius: 8px;
+}
+.success .backgroundGradient .icon{
+    transform: translateX(5px);
+}
+.success{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateX(100vw);
+    transition: transform 0.4s, opacity 0s;
+}
+.success .text p{
+    font-size: 1.5rem;
+}
+.notSend .text p{
+    font-size: 1.5rem;
+}
+.hide{
+    opacity: 0;
+}
+.notSend .backgroundGradient{
+    background: #3A3A3A;
+    box-shadow:rgba(20, 20, 20, 0.7) 0px 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+.notSend{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateX(-100vw);
+    transition: transform 0.4s, opacity 0s;
+}
+.notSend .backgroundGradient .text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.print{
+    transform: translateX(0);
+    opacity: 1;
+}
+.borderRed{
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1700px){
+    .formulaire .contain{
+        width: 70%;
+    }
+    .formulaire .rightContent{
+        width: 50%;
+    }
+    .formulaire .leftContent{
+        width: 50%;
+    }
+    .formulaire .buttons{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .formulaire .buttons{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1150px){
+    .formulaire .buttons{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .formulaire .contain{
+        width: 100%;
+    }
+    .formulaire .contain .labels{
+        width: 100%;
+    }
+    .formulaire .contain .buttons{
+        flex-direction: column;
+        padding: 0;
+    }
+    .formulaire .buttons {
+        width: 100%;
+    }
+    .formulaire .contain .buttons .checkData{
+        width: 100%;
+    }
+    .formulaire .contain .buttons .send{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:670px) {
+    .formulaire .contain .labels{
+        flex-direction: column;
+    } 
+    .formulaire .contain .labels p{
+        padding: 0;
+    } 
+    .formulaire .contain .labels .rightContent{
+        width: 100%;
+        padding: 0;
+    }
+    .formulaire .contain .labels .leftContent{
+        width: 100%;
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,17 @@
+<header class="slider">
+    <p>{{obj.page[id].content[5].title}}</p>
+</header>
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper" >
+        {% for slide in obj.page[id].content[5].content %}
+            <div class="swiper-slide"><img src="{{slide.url}}" height="300" width="500" alt="{{slide.alt}}"></div>
+        {% endfor %}
+        
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+{% block script %}
+    
+{% endblock %}
